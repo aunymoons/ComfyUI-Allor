@@ -2,7 +2,7 @@ rembg
 onnx
 
 # Optional for auto updates
-gitpython
+# gitpython
 
 # If you want you can install onnxruntime with GPU support
 # onnxruntime[gpu]
