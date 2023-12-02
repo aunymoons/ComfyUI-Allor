@@ -1,0 +1,35 @@
+{
+    "modules": {
+        "AlphaChanel": true,
+        "Clamp": true,
+        "ImageBatch": true,
+        "ImageComposite": true,
+        "ImageContainer": true,
+        "ImageDraw": true,
+        "ImageEffects": true,
+        "ImageFilter": true,
+        "ImageNoise": true,
+        "ImageSegmentation": true,
+        "ImageText": true,
+        "ImageTransform": true
+    },
+    "override": {
+        "postprocessing": false,
+        "transform": false,
+        "debug": false
+    },
+    "updates": {
+        "update_frequency": "day",
+        "notify_if_has_new_updates": true,
+        "notify_if_no_new_updates": true,
+        "auto_update": false,
+        "branch_name": "main",
+        "update_mode": "soft",
+        "confirm_unstable_agreement": false
+    },
+    "fonts": {
+        "folder_path": "comfy_extras/fonts",
+        "system_fonts": false,
+        "user_fonts": false
+    }
+}
